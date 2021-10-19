@@ -1,0 +1,108 @@
+[15:45:22] DEBUG    Pelican version: 4.7.1                                                                                       __init__.py:516
+           DEBUG    Python version: 3.9.7                                                                                        __init__.py:517
+True
+           DEBUG    Adding current directory to system path                                                                       __init__.py:66
+           DEBUG    Finding namespace plugins                                                                                       _utils.py:81
+           DEBUG    Missing dependencies for md, markdown, mkd, mdown                                                             readers.py:504
+           WARNING  Watched path does not exist: /Users/r4victor/Projects/pelican/website/content/images                               log.py:91
+           WARNING  No valid files found in content for the active readers:                                                            log.py:91
+                      | BaseReader (static)                                                                                                     
+                      | HTMLReader (htm, html)                                                                                                  
+                      | RstReader (rst)                                                                                                         
+           DEBUG    Found generator: ArticlesGenerator (internal)                                                                __init__.py:209
+           DEBUG    Found generator: PagesGenerator (internal)                                                                   __init__.py:209
+           DEBUG    Found generator: StaticGenerator (internal)                                                                  __init__.py:209
+           DEBUG    Template list: ['!simple/archives.html', '!simple/article.html', '!simple/author.html',                     generators.py:70
+                    '!simple/authors.html', '!simple/base.html', '!simple/categories.html', '!simple/category.html',                            
+                    '!simple/gosquared.html', '!simple/index.html', '!simple/page.html', '!simple/pagination.html',                             
+                    '!simple/period_archives.html', '!simple/tag.html', '!simple/tags.html', '!simple/translations.html',                       
+                    '!theme/analytics.html', '!theme/archives.html', '!theme/article.html', '!theme/article_infos.html',                        
+                    '!theme/author.html', '!theme/authors.html', '!theme/base.html', '!theme/category.html',                                    
+                    '!theme/comments.html', '!theme/disqus_script.html', '!theme/github.html', '!theme/index.html',                             
+                    '!theme/page.html', '!theme/period_archives.html', '!theme/tag.html', '!theme/taglist.html',                                
+                    '!theme/tags.html', '!theme/translations.html', '!theme/twitter.html', 'analytics.html', 'archives.html',                   
+                    'article.html', 'article_infos.html', 'author.html', 'authors.html', 'base.html', 'categories.html',                        
+                    'category.html', 'comments.html', 'disqus_script.html', 'github.html', 'gosquared.html', 'index.html',                      
+                    'page.html', 'pagination.html', 'period_archives.html', 'tag.html', 'taglist.html', 'tags.html',                            
+                    'translations.html', 'twitter.html']                                                                                        
+           DEBUG    Deleted file/link output/tags.html                                                                              utils.py:379
+           DEBUG    Deleted file/link output/index.html                                                                             utils.py:379
+           DEBUG    Deleted file/link output/authors.html                                                                           utils.py:379
+           DEBUG    Deleted directory output/theme                                                                                  utils.py:372
+           DEBUG    Deleted file/link output/archives.html                                                                          utils.py:379
+           DEBUG    Deleted file/link output/categories.html                                                                        utils.py:379
+           INFO     Writing /Users/r4victor/Projects/pelican/website/output/index.html                                            writers.py:212
+           INFO     Writing /Users/r4victor/Projects/pelican/website/output/tags.html                                             writers.py:212
+           INFO     Writing /Users/r4victor/Projects/pelican/website/output/categories.html                                       writers.py:212
+           INFO     Writing /Users/r4victor/Projects/pelican/website/output/authors.html                                          writers.py:212
+           INFO     Writing /Users/r4victor/Projects/pelican/website/output/archives.html                                         writers.py:212
+           INFO     Creating directory /Users/r4victor/Projects/pelican/website/output/theme                                        utils.py:304
+           INFO     Creating directory /Users/r4victor/Projects/pelican/website/output/theme/css                                    utils.py:321
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/css/pygment.css to                     utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/css/pygment.css                                                       
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/css/reset.css to                       utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/css/reset.css                                                         
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/css/typogrify.css to                   utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/css/typogrify.css                                                     
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/css/main.css to                        utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/css/main.css                                                          
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/css/wide.css to                        utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/css/wide.css                                                          
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/css/fonts.css to                       utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/css/fonts.css                                                         
+           INFO     Creating directory /Users/r4victor/Projects/pelican/website/output/theme/images                                 utils.py:321
+           INFO     Creating directory /Users/r4victor/Projects/pelican/website/output/theme/images/icons                           utils.py:321
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/rss.png to                utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/rss.png                                                  
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/delicious.png to          utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/delicious.png                                            
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/aboutme.png to            utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/aboutme.png                                              
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/google-groups.png to      utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/google-groups.png                                        
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/vimeo.png to              utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/vimeo.png                                                
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/github.png to             utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/github.png                                               
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/bitbucket.png to          utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/bitbucket.png                                            
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/gitorious.png to          utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/gitorious.png                                            
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/lastfm.png to             utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/lastfm.png                                               
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/speakerdeck.png to        utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/speakerdeck.png                                          
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/twitter.png to            utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/twitter.png                                              
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/gittip.png to             utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/gittip.png                                               
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/linkedin.png to           utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/linkedin.png                                             
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/google-plus.png to        utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/google-plus.png                                          
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/hackernews.png to         utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/hackernews.png                                           
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/reddit.png to             utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/reddit.png                                               
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/youtube.png to            utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/youtube.png                                              
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/stackoverflow.png to      utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/stackoverflow.png                                        
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/facebook.png to           utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/facebook.png                                             
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/images/icons/slideshare.png to         utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/images/icons/slideshare.png                                           
+           INFO     Creating directory /Users/r4victor/Projects/pelican/website/output/theme/fonts                                  utils.py:321
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/fonts/Yanone_Kaffeesatz_400.svg to     utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/fonts/Yanone_Kaffeesatz_400.svg                                       
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/fonts/Yanone_Kaffeesatz_400.woff2 to   utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/fonts/Yanone_Kaffeesatz_400.woff2                                     
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/fonts/Yanone_Kaffeesatz_400.ttf to     utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/fonts/Yanone_Kaffeesatz_400.ttf                                       
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/fonts/font.css to                      utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/fonts/font.css                                                        
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/fonts/Yanone_Kaffeesatz_400.woff to    utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/fonts/Yanone_Kaffeesatz_400.woff                                      
+           INFO     Copying /Users/r4victor/Projects/pelican/pelican/themes/notmyidea/static/fonts/Yanone_Kaffeesatz_400.eot to     utils.py:329
+                    /Users/r4victor/Projects/pelican/website/output/theme/fonts/Yanone_Kaffeesatz_400.eot                                       
+Done: Processed 0 articles, 0 drafts, 0 hidden articles, 0 pages, 0 hidden pages and 0 draft pages in 0.21 seconds.
